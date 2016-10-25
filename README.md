@@ -15,6 +15,8 @@ Once you’re ready to review your design, you need to export it from your sketc
 
 Rather than export the entire design, you’ll want to export it in slices. The template is designed to make this easy. It comes organized with the following Layer Groups (or folders) which you’ll use export you lookbook.
 
+![folder structure](http://i.imgur.com/T9aYffS.png)
+
 | Folder Name | Description |
 | ------ | ----------- |
 | hero   | Contains Lookbook title, hero image, and intro copy |
@@ -22,10 +24,10 @@ Rather than export the entire design, you’ll want to export it in slices. The 
 | block-2 | Contains Section-2 title, all section-2 copy, and all section-2 captions |
 | block-3 | Contains Section-3 title, all section-3 copy, and all section-3 captions |
  
-![folder structure](http://i.imgur.com/T9aYffS.png)
+![hero structure](http://i.imgur.com/emVjHiD.png)
 
 Each of the folders should contain all the creative for its corresponding section. For instance, the `hero` folder should container the cookbook’s intro title, hero image, and intro copy.  
-![hero structure](http://i.imgur.com/emVjHiD.png)
+
 
 ### Export Setting
 - Export each layer group as an individual png. To do so, just select the folders, and then click “export” on the bottom right of your screen.  
