@@ -5,40 +5,40 @@ Preview & review your Lookbook designs prior to development. Requires no coding 
 Designed to work with [Everlane Lookbook Template](https://www.dropbox.com/s/9sjwraqbs4jfmff/20161010_Everlane_Lookbook.sketch?dl=0). 
 
 ## Overview
-1. Download and save this zip file to your desktop (or wherever you save your working files).
-2. Exporting your design into the `/img` folder.
+1. Download and save [the Lookbook Prototyping Tool](https://github.com/wmanderson/lookbook_template/archive/master.zip) to your desktop (or wherever you save your working files).
+2. Exporting your design into its `/img` folder.
 
-## Exporting Your Design
+## How-To
 
-In order to accurately preview your design, you need to follow a few, simple steps when exporting your design. 
+#### Step 1: Export from Sketch
+Once you’re ready to review your design, you need to export it from your sketch file as PNGs. 
 
-#### Choosing which folders to export
-The sketch Lookbook template is organized with preexisting folders—these are the folders you’ll want to export. The default folders are:
-```
-site-header
-hero
-block-1
-block-2
-block-3
-```
+Rather than export the entire design, you’ll want to export it in slices. The template is designed to make this easy. It comes organized with the following Layer Groups (or folders) which you’ll use export you lookbook.
+ 
+- site-header (ignore)
+- hero
+- block-1
+- block-2
+- block-3
+![folder structure](http://i.imgur.com/T9aYffS.png)
 
-The `hero` folder should container all text and images from the intro section of the look book. The `block-1` folder should contain all text and images from the first section. And so on. If you need to add a section, you can duplicate (`⌘ + D`) folders and rename them accordingly. 
-![folder structure](http://i.imgur.com/xavLmX6.png)
+Each of the folders should contain all the creative for its corresponding section. For instance, the `hero` folder should container the cookbook’s intro title, hero image, and intro copy.  
+![hero structure](http://i.imgur.com/emVjHiD.png)
 
 ### Export Setting
-- Each folder should be exported as an individual 1x .png file. 
+- Export each layer group as an individual png. To do so, just select the folders, and then click “export” on the bottom right of your screen.  
 - *Important*: Do not rename the files. 
-- Export PNGs to the `lookbook.html/img` folder. If there are existing files there, you can overwrite them. 
+- Export the PNGs to the `lookbook.html/img` folder. If there are existing files there, you can overwrite them. 
 ![export settings](http://i.imgur.com/xKKhXdX.png)
-![files](http://imgur.com/bPD9tnX)
+![files](http://i.imgur.com/uXNE9BF.png)
 
-## Previewing Your Design
+## Step 2: Open in Browser
 To preview the design, just open the `index.html` file. It should open in your default browser. 
 
 If you receive an error message, try increasing the size of your browser—this template is designed to only preview desktop designs, not mobile or tablet. 
 
 If you wish to update your designs, just re-export from sketch and overwrite the existing file(s). 
-![preview](http://imgur.com/IoW9GML)
+![preview](http://i.imgur.com/IoW9GML.png)
 
 ### Customizing the template
 	1. The only time you may want to edit the template is to change the background color. To do so, open the `css/style.css` file in any text editor (e.g. Text Edit)
