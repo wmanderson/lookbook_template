@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'Everlane-bold';
+  src: url('fonts/Everlane-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Everlane-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Everlane-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Everlane-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Everlane-med';
+  src: url('fonts/Everlane-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Everlane-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Everlane-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Everlane-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*********** Change the background color of your lookbook below/***********/
+
+body {
+  background-color: #f8f8f8;
+}
+
+
+/*Header Styling*/
+
+#app-header {
+  z-index: 13;
+  -webkit-transition: all 125ms ease;
+  transition: all 125ms ease;
+  transition-property: color,fill,stroke,background-color,box-shadow;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 940px;
+  color: #A3A5A7;
+  fill: #808284;
+  stroke: #808284;
+  background-color: hsla(0,0%,100%,.97);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  box-sizing: border-box;
+  border-color: #949698;
+  position: fixed;
+  font-size: 13px;
+  letter-spacing: .5px;
+  font-family: "graphik",Helvetica Neue,Helvetica,Arial,'sans-serif';
+  line-height: 19.416px;
+
+}
+
+.top {
+  box-shadow: 0px;
+}
+
+.sticky {
+  box-shadow: 0 2px 4px 0 rgba(76,76,75,.1);
+}
+
+
+.app-header__menu-item {
+  height: 80px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+
+}
+
+.app-header__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  cursor: pointer;
+  transition: all 125ms ease;
+}
+
+.app-header__menu-item .button {
+  color: #bb8b7d;
+  border: 1px solid #bb8b7d;
+  border-radius: 25px;
+  height: 35px;
+  padding: 0 10px;
+  margin-right: 12px;
+}
+
+.app-header__menu-item.small-link {
+  margin-left: -30px;
+
+}
+
+.app-header__link:hover {
+  color: #4C4C4B;
+}
+
+.app-header__far-left {
+  align-items: center;
+  -webkit-box-pack: start;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 28px;
+  height: 80px;
+  min-width: 160px;
+}
+
+.app-header__left {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+  padding-right: 35px;
+}
+
+.app-header__middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.app-header__logo-container {
+  width: 215px;
+  fill: #808285;
+  stroke: none;
+  position: relative;
+  top: 3px;
+}
+
+.app-header__right {
+  display: flex;
+  width: 35%;
+  justify-content: flex-start;
+  padding-left: 35px;
+}
+
+.app-header__far-right {
+  display: flex;
+  min-width: 160px;
+  align-items: center;
+ justify-content: center;
+ -webkit-box-pack: center;
+}
+
+
+
+/*Content styling*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.content, .blocks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+
+
+.hero {
+  margin-top: 80px;
+  margin-bottom: 64px;
+  padding-top: 45px;
+
+}
+
+img {
+  width: 100%;
+  max-width: 1180px;
+  height: auto;
+  float: left;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+
+.block {
+  margin-top: 100px;
+}
+
+.block:first-child {
+  margin-top: 0px;
+}
+
+.block:last-child {
+  margin-bottom: 25px;
+}
+
+/*Break for mobile*/
+
+.mobile-warning {
+  display: none;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e74c3c;
+  z-index: 999;
+  opacity: 0;
+  transition: all .10s;
+}
+
+.mobile-warning h1 {
+  padding: 0px 15px;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  line-height: 45px;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  .mobile-warning {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+  .content {
+    display: none;
+  }
+
+}
