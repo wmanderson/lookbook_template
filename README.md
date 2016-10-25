@@ -14,12 +14,14 @@ Designed to work with [Everlane Lookbook Template](https://www.dropbox.com/s/9sj
 Once you’re ready to review your design, you need to export it from your sketch file as PNGs. 
 
 Rather than export the entire design, you’ll want to export it in slices. The template is designed to make this easy. It comes organized with the following Layer Groups (or folders) which you’ll use export you lookbook.
+
+| Folder Name | Description |
+| ------ | ----------- |
+| hero   | Contains Lookbook title, hero image, and intro copy |
+| block-1 | Contains Section-1 title, all section-1 copy, and all section-1 captions |
+| block-2 | Contains Section-2 title, all section-2 copy, and all section-2 captions |
+| block-3 | Contains Section-3 title, all section-3 copy, and all section-3 captions |
  
-- site-header (ignore)
-- hero
-- block-1
-- block-2
-- block-3
 ![folder structure](http://i.imgur.com/T9aYffS.png)
 
 Each of the folders should contain all the creative for its corresponding section. For instance, the `hero` folder should container the cookbook’s intro title, hero image, and intro copy.  
