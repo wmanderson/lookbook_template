@@ -29,4 +29,4 @@ Finally, just open the prototype in your browser by double clicking the `index.h
 
 Your design should automatically open in your browser. Scroll through and check it out! Beautiful job. 
 
-![Imgur](http://i.imgur.com/1EGMZgx.png)
+![Imgur](http://i.imgur.com/9MVv0zJ.png)
