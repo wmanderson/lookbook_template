@@ -1,4 +1,4 @@
-# Everlane Lookbook Prototyping Tool
+# Lookbook Preview
 
 Preview & review your Lookbook designs prior to development. No coding required. To download, click [here](https://github.com/wmanderson/lookbook_template/archive/master.zip).
 
@@ -15,7 +15,8 @@ Once you’re ready to review your design, you need to export it from Sketch. Bu
 #### Step 2: Export Files
 
 Select each section, and click export (located on the bottom right of your screen). 
-- Note: Do not rename the files. 
+- Always save as 1x PNGs
+- Do not rename the files. 
 
 Export the files into the `img` folder, which is located within the `lookbook_template-master` folder you downloaded from this page. 
 
@@ -26,6 +27,6 @@ Export the files into the `img` folder, which is located within the `lookbook_te
 
 Finally, just open the prototype in your browser by double clicking the `index.html` file (located in the `lookbook_template-master` folder). 
 
-Your design should automatically open in your browser. Scroll through and check it out!
+Your design should automatically open in your browser. Scroll through and check it out! Beautiful job. 
 
 ![Imgur](http://i.imgur.com/1EGMZgx.png)
