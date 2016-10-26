@@ -19,7 +19,7 @@ Select each section, and click export (located on the bottom right of your scree
 
 Export the files into the `img` folder, which is located within the `lookbook_template-master` folder you downloaded from this page. 
 
-![export](http://i.imgur.com/1EGMZgx.png)
+![export](http://i.imgur.com/Js7YdPA.png)
 
 
 ### Step 3: Open in Browser
