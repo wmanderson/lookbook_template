@@ -2,7 +2,7 @@
 
 Preview & review your Lookbook designs prior to development. No coding required. To download, click [here](https://github.com/wmanderson/lookbook_template/archive/master.zip).
 
-Designed to work with [Everlane Lookbook Template](https://www.dropbox.com/s/9sjwraqbs4jfmff/20161010_Everlane_Lookbook.sketch?dl=0). 
+Designed to work with [Everlane Lookbook Template](https://www.dropbox.com/sh/0sxo8494pmj52ao/AABzkojcNQ-LWbjn3-7lMlSPa?dl=0). 
 
 ## How-To 
 
