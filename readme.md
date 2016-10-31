@@ -10,7 +10,7 @@ Designed to work with [Everlane Lookbook Template](https://www.dropbox.com/s/9sj
 
 Once you’re ready to review your design, you need to export it from Sketch. But rather than export the entire design, you’ll want to export each section individually. 
 
-![folder structure](http://i.imgur.com/atH2OAS.png)
+![folder structure reference](http://i.imgur.com/atH2OAS.png)
 
 #### Step 2: Export Files
 
@@ -20,7 +20,7 @@ Select each section, and click export (located on the bottom right of your scree
 
 Export the files into the `img` folder, which is located within the `lookbook_template-master` folder you downloaded from this page. 
 
-![export](http://i.imgur.com/Js7YdPA.png)
+![export reference](http://i.imgur.com/Js7YdPA.png)
 
 
 ### Step 3: Open in Browser
@@ -29,4 +29,4 @@ Finally, just open the prototype in your browser by double clicking the `index.h
 
 Your design should automatically open in your browser. Scroll through and check it out! Beautiful job. 
 
-![Imgur](http://i.imgur.com/9MVv0zJ.png)
+![index.html reference](http://i.imgur.com/9MVv0zJ.png)

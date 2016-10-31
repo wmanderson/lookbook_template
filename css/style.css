@@ -55,7 +55,6 @@ body {
   letter-spacing: .5px;
   font-family: "graphik",Helvetica Neue,Helvetica,Arial,'sans-serif';
   line-height: 19.416px;
-
 }
 
 .top {
@@ -74,7 +73,6 @@ body {
   align-items: center;
   justify-content: center;
   color: inherit;
-
 }
 
 .app-header__link {
@@ -176,7 +174,7 @@ body {
 
 .hero {
   margin-top: 80px;
-  margin-bottom: 64px;
+  margin-bottom: 100px;
   padding-top: 45px;
 
 }
@@ -186,9 +184,6 @@ img {
   max-width: 1180px;
   height: auto;
   float: left;
-}
-
-img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
